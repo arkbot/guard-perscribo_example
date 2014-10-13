@@ -1,14 +1,12 @@
-load 'main.rb'
-
-require 'rubygems'
-require 'bundler/setup'
+# require 'rubygems'
+# require 'bundler/setup'
 
 require 'cucumber/rake/task'
 require 'guard/rake_task'
 require 'rubocop/rake_task'
 require 'rspec/core/rake_task'
 
-require 'test/support/stdout_helper.rb'
+require_relative 'test/support/stdout_helper.rb'
 
 RuboCop::RakeTask.new
 RSpec::Core::RakeTask.new(:spec)

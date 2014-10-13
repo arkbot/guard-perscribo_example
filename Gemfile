@@ -16,9 +16,6 @@ group :development, :test do
   gem 'terminal-notifier-guard', require: false
 
   gem 'intus', require: false, git: 'https://github.com/arkbot/intus.git'
-  gem 'method_pirate', require: false, git: 'https://github.com/arkbot/method_pirate.git'
-  gem 'modular_bootstrap', require: false, git: 'https://github.com/arkbot/modular_bootstrap.git'
-  gem 'rubyisms', require: false, git: 'https://github.com/arkbot/rubyisms.git'
 
   gem 'perscribo', require: false, git: 'https://github.com/arkbot/perscribo.git'
   gem 'guard-perscribo', require: false, git: 'https://github.com/arkbot/guard-perscribo.git'

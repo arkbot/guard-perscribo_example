@@ -10,7 +10,7 @@ group :red_green_refactor, halt_on_fail: true do
       begin
         reload_guardfile
       rescue
-        puts 'WARNING: the `guard-perscribo` gem is not installed.'
+        puts 'WARNING: the `guard-perscribo` gem may not be installed.'
       end
     end
   end
