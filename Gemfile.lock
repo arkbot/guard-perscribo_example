@@ -1,3 +1,10 @@
+PATH
+  remote: /Users/aeberlin/Projects/Repositories/guard-rubocop
+  specs:
+    guard-rubocop (1.1.0)
+      guard (~> 2.0)
+      rubocop (~> 0.20)
+
 GIT
   remote: https://github.com/arkbot/perscribo-rubocop.git
   revision: 7b69ecf6ce33978b8917c3955c19f55b57d10e7c
@@ -88,9 +95,6 @@ GEM
     guard-rspec (4.3.1)
       guard (~> 2.1)
       rspec (>= 2.14, < 4.0)
-    guard-rubocop (1.1.0)
-      guard (~> 2.0)
-      rubocop (~> 0.20)
     guard-shell (0.6.1)
       guard (>= 1.1.0)
     hitimes (1.2.2)
@@ -154,7 +158,7 @@ DEPENDENCIES
   guard-cucumber
   guard-perscribo!
   guard-rspec
-  guard-rubocop
+  guard-rubocop!
   guard-shell
   intus!
   perscribo!

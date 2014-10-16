@@ -11,7 +11,7 @@ group :development, :test do
   gem 'guard', require: false
   gem 'guard-cucumber', require: false
   gem 'guard-rspec', require: false
-  gem 'guard-rubocop', require: false
+  gem 'guard-rubocop', require: false, path: "/Users/aeberlin/Projects/Repositories/guard-rubocop/"
   gem 'guard-shell', require: false
   gem 'terminal-notifier-guard', require: false
 
@@ -23,4 +23,3 @@ group :development, :test do
   gem 'perscribo-rspec', require: false, git: 'https://github.com/arkbot/perscribo-rspec.git'
   gem 'perscribo-rubocop', require: false, git: 'https://github.com/arkbot/perscribo-rubocop.git'
 end
-

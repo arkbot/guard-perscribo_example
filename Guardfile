@@ -8,7 +8,7 @@ group :red_green_refactor, halt_on_fail: true do
   guard :shell, notification: true do
     watch(%r{^Rakefile|(?:(?:test|lib)/support/|main)(.+)\.rb}) do
       begin
-        reload_guardfile
+        reload_guardfile!
       rescue
         puts 'WARNING: the `guard-perscribo` gem may not be installed.'
       end

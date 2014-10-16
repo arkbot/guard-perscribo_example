@@ -1,6 +1,6 @@
-require_relative '../../../lib/guard_example/foo'
-require_relative '../../../test/support/rspec/spec_helper'
-require_relative '../../../test/support/stdout_helper'
+require_relative '../../../../lib/guard_example/foo'
+require_relative '../../../support/rspec/spec_helper'
+require_relative '../../../support/stdout_helper'
 
 module GuardExample
   describe Foo do
